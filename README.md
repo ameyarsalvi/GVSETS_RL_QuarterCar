@@ -1,7 +1,7 @@
 # GVSETS_RL_QuarterCar
 Deep reinforcement learning for simultaneous path planning and stabilization of offroad vehicles
 
-![alt text](https://github.com/ameyarsalvi/GVSETS_RL_QuarterCar/blob/main/gvsets_rl_1.png)
+![alt text](https://github.com/ameyarsalvi/GVSETS_RL_QuarterCar/blob/main/gvsets_rl1.jpg)
 
 ### IMPORTANT FILES
 1. QuarterCarRLDDPG_vel_osc_more_layers.m
@@ -17,5 +17,9 @@ This file computes the one step simulation for quarter car using ODE45.
 Run the QuarterCarRLDDPG_vel_osc_more_layers.m as is. This starts the training process. Once the training is finished, the trained agent is saved as : VelocityOscAgentFreq2_neg2vel.mat
 
 ## Evaluation : 
+
+![alt text](https://github.com/ameyarsalvi/GVSETS_RL_QuarterCar/blob/main/gvsets_rl3.jpg)
+
 The training file contains the evaluation section itself. Once evaluation is complete, data is stored in sim_states_T_C2.mat and actionData_T_C2.mat, which can then be ploted using paper_plots.m file for eps format images.
 
+![alt text](https://github.com/ameyarsalvi/GVSETS_RL_QuarterCar/blob/main/gvsets_rl_2.png)
