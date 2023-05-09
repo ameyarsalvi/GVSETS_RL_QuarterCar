@@ -1,6 +1,8 @@
 # GVSETS_RL_QuarterCar
 Deep reinforcement learning for simultaneous path planning and stabilization of offroad vehicles
 
+![alt text]([http://url/to/img.png](https://github.com/ameyarsalvi/GVSETS_RL_QuarterCar/blob/main/gvsets_rl_1.png))
+
 ### IMPORTANT FILES
 1. QuarterCarRLDDPG_vel_osc_more_layers.m
 This is the main file which calls all the sub files. Running this file directly starts the training process with existing hyperparameters.
